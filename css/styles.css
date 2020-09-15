@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-@media (max-width:990px) {
+@media (max-width:1030px) {
     .dog-phone-img {
         transform: rotate(0);
         position: relative;
@@ -79,6 +79,9 @@ h1, h2, h3, h4, h5, h6 {
         width: 80%;
     }
     .container-fluid {
+        text-align: center;
+    }
+    .container-fluid h1{
         text-align: center;
     }
 }
